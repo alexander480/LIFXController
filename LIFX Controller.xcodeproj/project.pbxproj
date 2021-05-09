@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3244C9245292680032650D /* BasicLightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3244C8245292680032650D /* BasicLightCell.swift */; };
+		0A5E4C36242D6909002F6BB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E4C35242D6909002F6BB1 /* Extensions.swift */; };
+		0A5E6B472452A6B100F207E8 /* LightControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E6B462452A6B100F207E8 /* LightControllerVC.swift */; };
 		0A9AACF62425C70600E1285A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AACF52425C70600E1285A /* AppDelegate.swift */; };
 		0A9AACF82425C70600E1285A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AACF72425C70600E1285A /* SceneDelegate.swift */; };
-		0A9AACFA2425C70600E1285A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AACF92425C70600E1285A /* ViewController.swift */; };
+		0A9AACFA2425C70600E1285A /* ClientTokenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AACF92425C70600E1285A /* ClientTokenVC.swift */; };
 		0A9AACFD2425C70600E1285A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AACFB2425C70600E1285A /* Main.storyboard */; };
 		0A9AACFF2425C70B00E1285A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AACFE2425C70B00E1285A /* Assets.xcassets */; };
 		0A9AAD022425C70B00E1285A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AAD002425C70B00E1285A /* LaunchScreen.storyboard */; };
-		0A9AADA52425DB0300E1285A /* LIFXHTTPKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9AADA42425DB0300E1285A /* LIFXHTTPKit */; };
-		0A9AADA92425DB8600E1285A /* LightsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AADA82425DB8600E1285A /* LightsHelper.swift */; };
+		0A9AADA52425DB0300E1285A /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9AADA42425DB0300E1285A /* SwiftPackageProductDependency */; };
+		0A9AADAC2425F0CB00E1285A /* ControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AADAB2425F0CB00E1285A /* ControllerVC.swift */; };
+		0A9AADAE2425F8A000E1285A /* DesignExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AADAD2425F8A000E1285A /* DesignExtension.swift */; };
+		CF2E099A887D7DEB6E0AB8C6 /* Pods_LIFX_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292D14AD149DB063CD2AB6 /* Pods_LIFX_Controller.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3244C8245292680032650D /* BasicLightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLightCell.swift; sourceTree = "<group>"; };
+		0A5E4C35242D6909002F6BB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0A5E6B462452A6B100F207E8 /* LightControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LightControllerVC.swift; path = "LIFX Controller/LightControllerVC.swift"; sourceTree = SOURCE_ROOT; };
 		0A9AACF22425C70600E1285A /* LIFX Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LIFX Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9AACF52425C70600E1285A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9AACF72425C70600E1285A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A9AACF92425C70600E1285A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A9AACF92425C70600E1285A /* ClientTokenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTokenVC.swift; sourceTree = "<group>"; };
 		0A9AACFC2425C70600E1285A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A9AACFE2425C70B00E1285A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9AAD012425C70B00E1285A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A9AAD032425C70B00E1285A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A9AADA82425DB8600E1285A /* LightsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LightsHelper.swift; path = "LIFX Controller/LightsHelper.swift"; sourceTree = "<group>"; };
 		0A9AADAA2425DBA100E1285A /* LIFX Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LIFX Controller.entitlements"; sourceTree = "<group>"; };
+		0A9AADAB2425F0CB00E1285A /* ControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerVC.swift; sourceTree = "<group>"; };
+		0A9AADAD2425F8A000E1285A /* DesignExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignExtension.swift; sourceTree = "<group>"; };
+		7B446766753E22C55BC09F74 /* Pods-LIFX Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFX Controller.debug.xcconfig"; path = "Target Support Files/Pods-LIFX Controller/Pods-LIFX Controller.debug.xcconfig"; sourceTree = "<group>"; };
+		D6292D14AD149DB063CD2AB6 /* Pods_LIFX_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIFX_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC840B7F1BC68F96F81189CA /* Pods-LIFX Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFX Controller.release.xcconfig"; path = "Target Support Files/Pods-LIFX Controller/Pods-LIFX Controller.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,20 +47,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9AADA52425DB0300E1285A /* LIFXHTTPKit in Frameworks */,
+				0A9AADA52425DB0300E1285A /* BuildFile in Frameworks */,
+				CF2E099A887D7DEB6E0AB8C6 /* Pods_LIFX_Controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3244CA245292DB0032650D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				0A3244CB245292E10032650D /* UICollectionViewCells */,
+				0A3244CC245293050032650D /* Custom Extensions */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		0A3244CB245292E10032650D /* UICollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0A3244C8245292680032650D /* BasicLightCell.swift */,
+			);
+			path = UICollectionViewCells;
+			sourceTree = "<group>";
+		};
+		0A3244CC245293050032650D /* Custom Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A9AADAD2425F8A000E1285A /* DesignExtension.swift */,
+			);
+			path = "Custom Extensions";
+			sourceTree = "<group>";
+		};
+		0A5E4C38242D760A002F6BB1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A9AACF92425C70600E1285A /* ClientTokenVC.swift */,
+				0A9AADAB2425F0CB00E1285A /* ControllerVC.swift */,
+				0A5E6B462452A6B100F207E8 /* LightControllerVC.swift */,
+				0A3244CA245292DB0032650D /* Design */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		0A9AACE92425C70600E1285A = {
 			isa = PBXGroup;
 			children = (
 				0A9AACF42425C70600E1285A /* LIFX Controller */,
-				0A9AACF92425C70600E1285A /* ViewController.swift */,
-				0A9AADA82425DB8600E1285A /* LightsHelper.swift */,
+				0A5E4C38242D760A002F6BB1 /* View Controllers */,
 				0A9AACF32425C70600E1285A /* Products */,
+				FEF99086467255FF779C2868 /* Pods */,
+				30F558FCCE5410C94DE8DCFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +136,27 @@
 				0A9AACF52425C70600E1285A /* AppDelegate.swift */,
 				0A9AACF72425C70600E1285A /* SceneDelegate.swift */,
 				0A9AAD032425C70B00E1285A /* Info.plist */,
+				0A5E4C35242D6909002F6BB1 /* Extensions.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		30F558FCCE5410C94DE8DCFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6292D14AD149DB063CD2AB6 /* Pods_LIFX_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEF99086467255FF779C2868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B446766753E22C55BC09F74 /* Pods-LIFX Controller.debug.xcconfig */,
+				DC840B7F1BC68F96F81189CA /* Pods-LIFX Controller.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A9AAD062425C70B00E1285A /* Build configuration list for PBXNativeTarget "LIFX Controller" */;
 			buildPhases = (
+				BBD6693119C69E758B900907 /* [CP] Check Pods Manifest.lock */,
 				0A9AACEE2425C70600E1285A /* Sources */,
 				0A9AACEF2425C70600E1285A /* Frameworks */,
 				0A9AACF02425C70600E1285A /* Resources */,
@@ -107,7 +177,7 @@
 			);
 			name = "LIFX Controller";
 			packageProductDependencies = (
-				0A9AADA42425DB0300E1285A /* LIFXHTTPKit */,
+				0A9AADA42425DB0300E1285A /* SwiftPackageProductDependency */,
 			);
 			productName = "LIFX Controller";
 			productReference = 0A9AACF22425C70600E1285A /* LIFX Controller.app */;
@@ -138,7 +208,7 @@
 			);
 			mainGroup = 0A9AACE92425C70600E1285A;
 			packageReferences = (
-				0A9AADA32425DB0300E1285A /* XCRemoteSwiftPackageReference "LIFXHTTPKit" */,
+				0A9AADA32425DB0300E1285A /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 0A9AACF32425C70600E1285A /* Products */;
 			projectDirPath = "";
@@ -162,15 +232,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBD6693119C69E758B900907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIFX Controller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A9AACEE2425C70600E1285A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9AADA92425DB8600E1285A /* LightsHelper.swift in Sources */,
-				0A9AACFA2425C70600E1285A /* ViewController.swift in Sources */,
+				0A9AADAC2425F0CB00E1285A /* ControllerVC.swift in Sources */,
+				0A5E6B472452A6B100F207E8 /* LightControllerVC.swift in Sources */,
+				0A9AACFA2425C70600E1285A /* ClientTokenVC.swift in Sources */,
+				0A9AADAE2425F8A000E1285A /* DesignExtension.swift in Sources */,
 				0A9AACF62425C70600E1285A /* AppDelegate.swift in Sources */,
+				0A3244C9245292680032650D /* BasicLightCell.swift in Sources */,
 				0A9AACF82425C70600E1285A /* SceneDelegate.swift in Sources */,
+				0A5E4C36242D6909002F6BB1 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +413,15 @@
 		};
 		0A9AAD072425C70B00E1285A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B446766753E22C55BC09F74 /* Pods-LIFX Controller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "LIFX Controller/LIFX Controller.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = VZ4LX93GR9;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/LIFX Controller/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,12 +437,15 @@
 		};
 		0A9AAD082425C70B00E1285A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC840B7F1BC68F96F81189CA /* Pods-LIFX Controller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "LIFX Controller/LIFX Controller.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = VZ4LX93GR9;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/LIFX Controller/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +483,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0A9AADA32425DB0300E1285A /* XCRemoteSwiftPackageReference "LIFXHTTPKit" */ = {
+		0A9AADA32425DB0300E1285A /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/alexander480/LIFXHTTPKit";
 			requirement = {
@@ -389,9 +494,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0A9AADA42425DB0300E1285A /* LIFXHTTPKit */ = {
+		0A9AADA42425DB0300E1285A /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0A9AADA32425DB0300E1285A /* XCRemoteSwiftPackageReference "LIFXHTTPKit" */;
+			package = 0A9AADA32425DB0300E1285A /* RemoteSwiftPackageReference */;
 			productName = LIFXHTTPKit;
 		};
 /* End XCSwiftPackageProductDependency section */
